@@ -13,7 +13,7 @@ class _AnimationbootState extends State<Animationboot> {
   @override
   void initState() {
     super.initState();
-    // Simulate a delay and navigate to the login page after a few seconds
+
     Future.delayed(const Duration(seconds: 3), () {
       Navigator.pushReplacement(
         context,
