@@ -30,7 +30,8 @@ class _LoginState extends State<Login> {
     } else if (email != "user@gmail.com" && password == "user1") {
       _showErrorDialog('Wrong email.');
     } else {
-      _showErrorDialog('An error occurs.');
+      _showErrorDialog(
+          'The login Email is user@gmail.com and Password is user1 for demonstration purpose.');
     }
   }
 
