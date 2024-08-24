@@ -85,9 +85,7 @@ class _LoginsuccessState extends State<Loginsuccess> {
                   'Login as: ${widget.email}',
                   style: GoogleFonts.bonaNova(fontSize: 20),
                 ),
-
                 SizedBox(height: 20),
-
                 DropdownButton<String>(
                   value: selectedCategory,
                   icon: Icon(Icons.arrow_downward),
@@ -112,10 +110,9 @@ class _LoginsuccessState extends State<Loginsuccess> {
                         );
                       })
                       .toSet()
-                      .toList(), // To ensure unique categories
+                      .toList(),
                 ),
                 SizedBox(height: 20),
-                // ListView to display the list of books in the selected category
                 Expanded(
                   child: ListView.builder(
                     padding: EdgeInsets.all(10),
