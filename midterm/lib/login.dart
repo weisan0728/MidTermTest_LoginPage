@@ -78,7 +78,7 @@ class _LoginState extends State<Login> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Image.asset(
-                      "C:/Users/Cheong Wei San/Desktop/MidTermTest/midterm/lib/images/neucLogo.png",
+                      "lib/images/neucLogo.png",
                       height: 200,
                       width: 200,
                     ),
